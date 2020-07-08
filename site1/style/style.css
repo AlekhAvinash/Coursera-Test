@@ -61,3 +61,36 @@
 #three h1{
 	background: #56BAEC;
 }
+
+@media only screen and (min-width: 992px){
+	#one{
+		position: absolute;
+		width: 30%;
+	}
+	#two{
+		position: absolute;
+		left: 33.34%;
+		width: 30%;
+	}
+	#three{
+		position: absolute;
+		left: 66.67%;
+		width: 30%;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+	#one{
+		position: absolute;
+		width: 44%;
+	}
+	#two{
+		position: absolute;
+		left: 50%;
+		width: 44%;
+	}
+	#three{
+		position: absolute;
+		top: 110%;
+	}
+}
