@@ -1,0 +1,26 @@
+*{
+	margin:0px;
+	border:0px;
+	background-color: powderblue;
+	font-family: 'Courier Prime';
+	font-size: 22px;
+	color: #000;
+}
+.navbar-default *,.navbar{
+	background-color: #0277a2;
+	color:black;
+}
+.navbar{
+	border-bottom: 0.3rem solid black;
+}
+.tile{
+	margin:1rem;
+	border:0.15rem solid black;
+	border-radius: 0.1rem;
+	box-shadow: 0.15rem 0.15rem 0.25rem #3f3f3f;
+}
+.s_head,.para{
+	margin:0px;
+	padding:1rem; 
+	background-color: #fdfd96;
+}
